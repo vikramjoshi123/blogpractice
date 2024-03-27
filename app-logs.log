@@ -1,0 +1,381 @@
+2024-03-27T13:18:30.425+05:30  INFO 9956 --- [restartedMain] c.p.p.PracticeProjectApplication         : Starting PracticeProjectApplication using Java 21.0.2 with PID 9956 (C:\Vikram\Spring Boot Project\practiceProject\target\classes started by 2000113222 in C:\Vikram\Spring Boot Project\practiceProject)
+2024-03-27T13:18:30.430+05:30  INFO 9956 --- [restartedMain] c.p.p.PracticeProjectApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-03-27T13:18:30.565+05:30  INFO 9956 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-27T13:18:30.566+05:30  INFO 9956 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-27T13:18:32.055+05:30  INFO 9956 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-27T13:18:32.185+05:30  INFO 9956 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 114 ms. Found 1 JPA repository interface.
+2024-03-27T13:18:33.465+05:30  INFO 9956 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-27T13:18:33.490+05:30  INFO 9956 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-27T13:18:33.491+05:30  INFO 9956 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-27T13:18:33.597+05:30  INFO 9956 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-27T13:18:33.598+05:30  INFO 9956 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3029 ms
+2024-03-27T13:18:33.957+05:30  INFO 9956 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-27T13:18:34.078+05:30  INFO 9956 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-27T13:18:34.160+05:30  INFO 9956 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-27T13:18:34.705+05:30  INFO 9956 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-27T13:18:34.778+05:30  INFO 9956 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-27T13:18:35.565+05:30  INFO 9956 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e1ab88b
+2024-03-27T13:18:35.569+05:30  INFO 9956 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-27T13:18:37.314+05:30  INFO 9956 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-27T13:18:37.407+05:30  INFO 9956 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-27T13:18:38.193+05:30  WARN 9956 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-27T13:18:38.935+05:30  INFO 9956 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-27T13:18:39.010+05:30  INFO 9956 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-03-27T13:18:39.032+05:30  INFO 9956 --- [restartedMain] c.p.p.PracticeProjectApplication         : Started PracticeProjectApplication in 9.628 seconds (process running for 10.983)
+2024-03-27T13:20:06.094+05:30  INFO 9956 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-27T13:20:06.096+05:30  INFO 9956 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-27T13:20:06.101+05:30  INFO 9956 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-03-27T13:20:06.506+05:30  INFO 9956 --- [http-nio-8080-exec-1] c.p.p.e.controller.EmployeeController    : Date: 27-03-2024 01:20:06 - EmployeeController - getAllEmployees - Response - [EmployeeEntity(id=3, name=dhiraj, email=dhiraj@gmail.com, salary=30000)]
+2024-03-27T13:20:16.011+05:30  INFO 9956 --- [http-nio-8080-exec-3] c.p.p.e.controller.EmployeeController    : Date: 27-03-2024 01:20:16 - EmployeeController - getAllEmployees - Response - [EmployeeEntity(id=3, name=dhiraj, email=dhiraj@gmail.com, salary=30000)]
+2024-03-27T13:20:25.149+05:30  INFO 9956 --- [http-nio-8080-exec-4] c.p.p.e.controller.EmployeeController    : Date: 27-03-2024 01:20:25 - EmployeeController - saveEmployee - Response - EmployeeEntity(id=6, name=vikram, email=vikram@test.com, salary=20000)
+2024-03-27T13:21:20.956+05:30  INFO 9956 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-27T13:21:20.962+05:30  INFO 9956 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-27T13:21:20.983+05:30  INFO 9956 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-27T13:21:28.684+05:30  INFO 15868 --- [restartedMain] c.p.p.PracticeProjectApplication         : Starting PracticeProjectApplication using Java 21.0.2 with PID 15868 (C:\Vikram\Spring Boot Project\practiceProject\target\classes started by 2000113222 in C:\Vikram\Spring Boot Project\practiceProject)
+2024-03-27T13:21:28.689+05:30  INFO 15868 --- [restartedMain] c.p.p.PracticeProjectApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-03-27T13:21:28.809+05:30  INFO 15868 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-27T13:21:28.810+05:30  INFO 15868 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-27T13:21:30.135+05:30  INFO 15868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-27T13:21:30.257+05:30  INFO 15868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 108 ms. Found 1 JPA repository interface.
+2024-03-27T13:21:31.532+05:30  INFO 15868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-27T13:21:31.564+05:30  INFO 15868 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-27T13:21:31.565+05:30  INFO 15868 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-27T13:21:31.693+05:30  INFO 15868 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-27T13:21:31.693+05:30  INFO 15868 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2882 ms
+2024-03-27T13:21:32.102+05:30  INFO 15868 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-27T13:21:32.235+05:30  INFO 15868 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-27T13:21:32.305+05:30  INFO 15868 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-27T13:21:32.777+05:30  INFO 15868 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-27T13:21:32.838+05:30  INFO 15868 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-27T13:21:33.537+05:30  INFO 15868 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@767a64e2
+2024-03-27T13:21:33.540+05:30  INFO 15868 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-27T13:21:35.070+05:30  INFO 15868 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-27T13:21:35.193+05:30  INFO 15868 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-27T13:21:35.916+05:30  WARN 15868 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-27T13:21:36.528+05:30  INFO 15868 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-27T13:21:36.599+05:30  INFO 15868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-03-27T13:21:36.623+05:30  INFO 15868 --- [restartedMain] c.p.p.PracticeProjectApplication         : Started PracticeProjectApplication in 8.786 seconds (process running for 9.894)
+2024-03-27T13:21:41.225+05:30  INFO 15868 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-27T13:21:41.227+05:30  INFO 15868 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-27T13:21:41.230+05:30  INFO 15868 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-03-27T13:21:41.742+05:30  INFO 15868 --- [http-nio-8080-exec-2] c.p.p.e.controller.EmployeeController    : Date: 27-03-2024 01:21:41 - EmployeeController - saveEmployee - Response - EmployeeEntity(id=7, name=vikram, email=vikram@test.com, salary=20000)
+
+===============================
+
+2024-03-27T13:21:57.846+05:30  INFO 15868 --- [http-nio-8080-exec-3] c.p.p.e.controller.EmployeeController    : Date: 27-03-2024 01:21:57 - EmployeeController - saveEmployee - Response - EmployeeEntity(id=8, name=vikram, email=vikram@test.com, salary=20000)
+2024-03-27T13:22:18.178+05:30  INFO 15868 --- [http-nio-8080-exec-4] c.p.p.e.controller.EmployeeController    : Date: 27-03-2024 01:22:18 - EmployeeController - getAllEmployees - Response - [EmployeeEntity(id=3, name=dhiraj, email=dhiraj@gmail.com, salary=30000), EmployeeEntity(id=6, name=vikram, email=vikram@test.com, salary=20000), EmployeeEntity(id=7, name=vikram, email=vikram@test.com, salary=20000), EmployeeEntity(id=8, name=vikram, email=vikram@test.com, salary=20000)]
+2024-03-27T13:22:25.256+05:30  INFO 15868 --- [http-nio-8080-exec-5] c.p.p.e.controller.EmployeeController    : Date: 27-03-2024 01:22:25 - EmployeeController - saveEmployee - Response - EmployeeEntity(id=9, name=vikram, email=vikram@test.com, salary=20000)
+2024-03-27T13:22:25.621+05:30  INFO 15868 --- [http-nio-8080-exec-7] c.p.p.e.controller.EmployeeController    : Date: 27-03-2024 01:22:25 - EmployeeController - saveEmployee - Response - EmployeeEntity(id=10, name=vikram, email=vikram@test.com, salary=20000)
+2024-03-27T13:22:28.489+05:30  INFO 15868 --- [http-nio-8080-exec-8] c.p.p.e.controller.EmployeeController    : Date: 27-03-2024 01:22:28 - EmployeeController - saveEmployee - Response - EmployeeEntity(id=11, name=vikram, email=vikram@test.com, salary=20000)
+2024-03-27T13:22:38.380+05:30  INFO 15868 --- [http-nio-8080-exec-9] c.p.p.e.controller.EmployeeController    : Date: 27-03-2024 01:22:38 - EmployeeController - getAllEmployees - Response - [EmployeeEntity(id=3, name=dhiraj, email=dhiraj@gmail.com, salary=30000), EmployeeEntity(id=6, name=vikram, email=vikram@test.com, salary=20000), EmployeeEntity(id=7, name=vikram, email=vikram@test.com, salary=20000), EmployeeEntity(id=8, name=vikram, email=vikram@test.com, salary=20000), EmployeeEntity(id=9, name=vikram, email=vikram@test.com, salary=20000), EmployeeEntity(id=10, name=vikram, email=vikram@test.com, salary=20000), EmployeeEntity(id=11, name=vikram, email=vikram@test.com, salary=20000)]
+2024-03-27T13:23:34.738+05:30  WARN 15868 --- [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2024-03-27T13:23:45.174+05:30  INFO 15868 --- [http-nio-8080-exec-1] c.p.p.e.controller.EmployeeController    : Date: 27-03-2024 01:23:45 - EmployeeController - deleteEmployee - Response - Deleted Successfully!
+2024-03-27T13:23:47.920+05:30  INFO 15868 --- [http-nio-8080-exec-2] c.p.p.e.controller.EmployeeController    : Date: 27-03-2024 01:23:47 - EmployeeController - deleteEmployee - Response - Already Deleted Or No data found!
+2024-03-27T13:23:50.139+05:30  INFO 15868 --- [http-nio-8080-exec-3] c.p.p.e.controller.EmployeeController    : Date: 27-03-2024 01:23:50 - EmployeeController - deleteEmployee - Response - Already Deleted Or No data found!
+2024-03-27T13:24:26.418+05:30  WARN 15868 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-03-27T13:24:36.703+05:30  INFO 15868 --- [http-nio-8080-exec-7] c.p.p.e.controller.EmployeeController    : Date: 27-03-2024 01:24:36 - EmployeeController - getAllEmployees - Response - [EmployeeEntity(id=3, name=dhiraj, email=dhiraj@gmail.com, salary=30000), EmployeeEntity(id=6, name=vikram, email=vikram@test.com, salary=20000), EmployeeEntity(id=7, name=vikram, email=vikram@test.com, salary=20000), EmployeeEntity(id=9, name=vikram, email=vikram@test.com, salary=20000), EmployeeEntity(id=10, name=vikram, email=vikram@test.com, salary=20000), EmployeeEntity(id=11, name=vikram, email=vikram@test.com, salary=20000)]
+2024-03-27T14:19:13.709+05:30  WARN 15868 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54m40s40ms541µs100ns).
+2024-03-27T14:20:36.122+05:30  WARN 15868 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m22s412ms405µs200ns).
+2024-03-27T14:23:08.150+05:30  INFO 15868 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-27T14:23:08.153+05:30  INFO 15868 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-27T14:23:08.158+05:30  INFO 15868 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-27T14:23:12.406+05:30  INFO 19044 --- [restartedMain] c.p.p.PracticeProjectApplication         : Starting PracticeProjectApplication using Java 21.0.2 with PID 19044 (C:\Vikram\Spring Boot Project\practiceProject\target\classes started by 2000113222 in C:\Vikram\Spring Boot Project\practiceProject)
+2024-03-27T14:23:12.408+05:30  INFO 19044 --- [restartedMain] c.p.p.PracticeProjectApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-03-27T14:23:12.485+05:30  INFO 19044 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-27T14:23:12.486+05:30  INFO 19044 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-27T14:23:13.354+05:30  INFO 19044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-27T14:23:13.417+05:30  INFO 19044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 1 JPA repository interface.
+2024-03-27T14:23:14.056+05:30  INFO 19044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-27T14:23:14.071+05:30  INFO 19044 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-27T14:23:14.071+05:30  INFO 19044 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-27T14:23:14.125+05:30  INFO 19044 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-27T14:23:14.125+05:30  INFO 19044 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1639 ms
+2024-03-27T14:23:14.318+05:30  INFO 19044 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-27T14:23:14.384+05:30  INFO 19044 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-27T14:23:14.416+05:30  INFO 19044 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-27T14:23:14.664+05:30  INFO 19044 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-27T14:23:14.699+05:30  INFO 19044 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-27T14:23:15.295+05:30  INFO 19044 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@209fd2b0
+2024-03-27T14:23:15.296+05:30  INFO 19044 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-27T14:23:16.118+05:30  INFO 19044 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-27T14:23:16.154+05:30  INFO 19044 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-27T14:23:16.592+05:30  WARN 19044 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-27T14:23:17.028+05:30  INFO 19044 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-27T14:23:17.080+05:30  INFO 19044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-03-27T14:23:17.092+05:30  INFO 19044 --- [restartedMain] c.p.p.PracticeProjectApplication         : Started PracticeProjectApplication in 5.163 seconds (process running for 5.741)
+2024-03-27T14:36:22.175+05:30  INFO 19044 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-27T14:36:22.178+05:30  INFO 19044 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-27T14:36:22.189+05:30  INFO 19044 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-27T14:36:26.487+05:30  INFO 9196 --- [restartedMain] c.p.p.PracticeProjectApplication         : Starting PracticeProjectApplication using Java 21.0.2 with PID 9196 (C:\Vikram\Spring Boot Project\practiceProject\target\classes started by 2000113222 in C:\Vikram\Spring Boot Project\practiceProject)
+2024-03-27T14:36:26.489+05:30  INFO 9196 --- [restartedMain] c.p.p.PracticeProjectApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-03-27T14:36:26.545+05:30  INFO 9196 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-27T14:36:26.545+05:30  INFO 9196 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-27T14:36:27.253+05:30  INFO 9196 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-27T14:36:27.324+05:30  INFO 9196 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 2 JPA repository interfaces.
+2024-03-27T14:36:28.008+05:30  INFO 9196 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-27T14:36:28.024+05:30  INFO 9196 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-27T14:36:28.025+05:30  INFO 9196 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-27T14:36:28.090+05:30  INFO 9196 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-27T14:36:28.091+05:30  INFO 9196 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1545 ms
+2024-03-27T14:36:28.296+05:30  INFO 9196 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-27T14:36:28.351+05:30  INFO 9196 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-27T14:36:28.387+05:30  INFO 9196 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-27T14:36:28.635+05:30  INFO 9196 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-27T14:36:28.673+05:30  INFO 9196 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-27T14:36:29.034+05:30  INFO 9196 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@11b1479f
+2024-03-27T14:36:29.036+05:30  INFO 9196 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-27T14:36:29.851+05:30  INFO 9196 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-27T14:36:30.682+05:30  INFO 9196 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-27T14:36:31.034+05:30  WARN 9196 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-27T14:36:31.121+05:30  WARN 9196 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'employeeController' method 
+com.practice.practiceProject.employee.controller.EmployeeController#getAllEmployees()
+to {GET [/api/v1/employee]}: There is already 'blogController' bean method
+com.practice.practiceProject.blog.controller.BlogController#getAllEmployees() mapped.
+2024-03-27T14:36:31.122+05:30  INFO 9196 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-27T14:36:31.124+05:30  INFO 9196 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-27T14:36:31.134+05:30  INFO 9196 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-27T14:36:31.136+05:30  INFO 9196 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-27T14:36:31.148+05:30  INFO 9196 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-03-27T14:36:31.166+05:30 ERROR 9196 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'employeeController' method 
+com.practice.practiceProject.employee.controller.EmployeeController#getAllEmployees()
+to {GET [/api/v1/employee]}: There is already 'blogController' bean method
+com.practice.practiceProject.blog.controller.BlogController#getAllEmployees() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:959) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.3.jar:3.2.3]
+	at com.practice.practiceProject.PracticeProjectApplication.main(PracticeProjectApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.3.jar:3.2.3]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'employeeController' method 
+com.practice.practiceProject.employee.controller.EmployeeController#getAllEmployees()
+to {GET [/api/v1/employee]}: There is already 'blogController' bean method
+com.practice.practiceProject.blog.controller.BlogController#getAllEmployees() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:672) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:634) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:331) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:508) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:84) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:298) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:986) ~[na:na]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:296) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:265) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:224) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:212) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:239) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-6.1.4.jar:6.1.4]
+	... 19 common frames omitted
+
+2024-03-27T14:42:13.450+05:30  INFO 15712 --- [restartedMain] c.p.p.PracticeProjectApplication         : Starting PracticeProjectApplication using Java 21.0.2 with PID 15712 (C:\Vikram\Spring Boot Project\practiceProject\target\classes started by 2000113222 in C:\Vikram\Spring Boot Project\practiceProject)
+2024-03-27T14:42:13.452+05:30  INFO 15712 --- [restartedMain] c.p.p.PracticeProjectApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-03-27T14:42:13.504+05:30  INFO 15712 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-27T14:42:13.504+05:30  INFO 15712 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-27T14:42:14.248+05:30  INFO 15712 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-27T14:42:14.331+05:30  INFO 15712 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 2 JPA repository interfaces.
+2024-03-27T14:42:15.025+05:30  INFO 15712 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-27T14:42:15.044+05:30  INFO 15712 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-27T14:42:15.044+05:30  INFO 15712 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-27T14:42:15.108+05:30  INFO 15712 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-27T14:42:15.109+05:30  INFO 15712 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1604 ms
+2024-03-27T14:42:15.303+05:30  INFO 15712 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-27T14:42:15.385+05:30  INFO 15712 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-27T14:42:15.430+05:30  INFO 15712 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-27T14:42:15.705+05:30  INFO 15712 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-27T14:42:15.750+05:30  INFO 15712 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-27T14:42:16.100+05:30  INFO 15712 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@18f47b
+2024-03-27T14:42:16.102+05:30  INFO 15712 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-27T14:42:16.939+05:30  INFO 15712 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-27T14:42:16.979+05:30  INFO 15712 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-27T14:42:17.382+05:30  WARN 15712 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-27T14:42:17.470+05:30  WARN 15712 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'employeeController' method 
+com.practice.practiceProject.employee.controller.EmployeeController#deleteEmployee(Long)
+to {DELETE [/api/v1/employee/{employeeId}]}: There is already 'blogController' bean method
+com.practice.practiceProject.blog.controller.BlogController#deleteEmployee(Long) mapped.
+2024-03-27T14:42:17.471+05:30  INFO 15712 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-27T14:42:17.474+05:30  INFO 15712 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-27T14:42:17.483+05:30  INFO 15712 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-27T14:42:17.486+05:30  INFO 15712 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-27T14:42:17.499+05:30  INFO 15712 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-03-27T14:42:17.522+05:30 ERROR 15712 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'employeeController' method 
+com.practice.practiceProject.employee.controller.EmployeeController#deleteEmployee(Long)
+to {DELETE [/api/v1/employee/{employeeId}]}: There is already 'blogController' bean method
+com.practice.practiceProject.blog.controller.BlogController#deleteEmployee(Long) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:959) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.3.jar:3.2.3]
+	at com.practice.practiceProject.PracticeProjectApplication.main(PracticeProjectApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.3.jar:3.2.3]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'employeeController' method 
+com.practice.practiceProject.employee.controller.EmployeeController#deleteEmployee(Long)
+to {DELETE [/api/v1/employee/{employeeId}]}: There is already 'blogController' bean method
+com.practice.practiceProject.blog.controller.BlogController#deleteEmployee(Long) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:672) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:634) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:331) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:508) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:84) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:298) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:986) ~[na:na]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:296) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:265) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:224) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:212) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:239) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-6.1.4.jar:6.1.4]
+	... 19 common frames omitted
+
+2024-03-27T14:45:36.253+05:30  INFO 132 --- [restartedMain] c.p.p.PracticeProjectApplication         : Starting PracticeProjectApplication using Java 21.0.2 with PID 132 (C:\Vikram\Spring Boot Project\practiceProject\target\classes started by 2000113222 in C:\Vikram\Spring Boot Project\practiceProject)
+2024-03-27T14:45:36.256+05:30  INFO 132 --- [restartedMain] c.p.p.PracticeProjectApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-03-27T14:45:36.317+05:30  INFO 132 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-27T14:45:36.317+05:30  INFO 132 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-27T14:45:37.102+05:30  INFO 132 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-27T14:45:37.187+05:30  INFO 132 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 2 JPA repository interfaces.
+2024-03-27T14:45:37.883+05:30  INFO 132 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-27T14:45:37.900+05:30  INFO 132 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-27T14:45:37.901+05:30  INFO 132 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-27T14:45:37.956+05:30  INFO 132 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-27T14:45:37.956+05:30  INFO 132 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1639 ms
+2024-03-27T14:45:38.147+05:30  INFO 132 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-27T14:45:38.210+05:30  INFO 132 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-27T14:45:38.242+05:30  INFO 132 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-27T14:45:38.461+05:30  INFO 132 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-27T14:45:38.497+05:30  INFO 132 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-27T14:45:38.855+05:30  INFO 132 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@21855838
+2024-03-27T14:45:38.859+05:30  INFO 132 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-27T14:45:39.685+05:30  INFO 132 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-27T14:45:39.723+05:30  INFO 132 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-27T14:45:40.057+05:30  WARN 132 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-27T14:45:40.145+05:30  WARN 132 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'employeeController' method 
+com.practice.practiceProject.employee.controller.EmployeeController#deleteEmployee(Long)
+to {DELETE [/api/v1/employee/{employeeId}]}: There is already 'blogController' bean method
+com.practice.practiceProject.blog.controller.BlogController#deleteBlog(Long) mapped.
+2024-03-27T14:45:40.146+05:30  INFO 132 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-27T14:45:40.148+05:30  INFO 132 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-27T14:45:40.157+05:30  INFO 132 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-27T14:45:40.159+05:30  INFO 132 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-27T14:45:40.173+05:30  INFO 132 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-03-27T14:45:40.194+05:30 ERROR 132 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'employeeController' method 
+com.practice.practiceProject.employee.controller.EmployeeController#deleteEmployee(Long)
+to {DELETE [/api/v1/employee/{employeeId}]}: There is already 'blogController' bean method
+com.practice.practiceProject.blog.controller.BlogController#deleteBlog(Long) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:959) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.3.jar:3.2.3]
+	at com.practice.practiceProject.PracticeProjectApplication.main(PracticeProjectApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.3.jar:3.2.3]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'employeeController' method 
+com.practice.practiceProject.employee.controller.EmployeeController#deleteEmployee(Long)
+to {DELETE [/api/v1/employee/{employeeId}]}: There is already 'blogController' bean method
+com.practice.practiceProject.blog.controller.BlogController#deleteBlog(Long) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:672) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:634) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:331) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:508) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:84) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:298) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:986) ~[na:na]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:296) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:265) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:224) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:212) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:239) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-6.1.4.jar:6.1.4]
+	... 19 common frames omitted
+
+2024-03-27T14:48:43.367+05:30  INFO 10388 --- [restartedMain] c.p.p.PracticeProjectApplication         : Starting PracticeProjectApplication using Java 21.0.2 with PID 10388 (C:\Vikram\Spring Boot Project\practiceProject\target\classes started by 2000113222 in C:\Vikram\Spring Boot Project\practiceProject)
+2024-03-27T14:48:43.370+05:30  INFO 10388 --- [restartedMain] c.p.p.PracticeProjectApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-03-27T14:48:43.434+05:30  INFO 10388 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-27T14:48:43.434+05:30  INFO 10388 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-27T14:48:44.180+05:30  INFO 10388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-27T14:48:44.252+05:30  INFO 10388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 2 JPA repository interfaces.
+2024-03-27T14:48:44.941+05:30  INFO 10388 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-27T14:48:44.956+05:30  INFO 10388 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-27T14:48:44.957+05:30  INFO 10388 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-27T14:48:45.015+05:30  INFO 10388 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-27T14:48:45.016+05:30  INFO 10388 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1581 ms
+2024-03-27T14:48:45.205+05:30  INFO 10388 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-27T14:48:45.260+05:30  INFO 10388 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-27T14:48:45.296+05:30  INFO 10388 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-27T14:48:45.518+05:30  INFO 10388 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-27T14:48:45.553+05:30  INFO 10388 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-27T14:48:45.942+05:30  INFO 10388 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3bb71732
+2024-03-27T14:48:45.944+05:30  INFO 10388 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-27T14:48:46.843+05:30  INFO 10388 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-27T14:48:46.886+05:30  INFO 10388 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-27T14:48:47.247+05:30  WARN 10388 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-27T14:48:47.594+05:30  INFO 10388 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-27T14:48:47.636+05:30  INFO 10388 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-03-27T14:48:47.648+05:30  INFO 10388 --- [restartedMain] c.p.p.PracticeProjectApplication         : Started PracticeProjectApplication in 4.779 seconds (process running for 5.367)
+2024-03-27T14:53:53.805+05:30  INFO 10388 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-27T14:53:53.805+05:30  INFO 10388 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-27T14:53:53.807+05:30  INFO 10388 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-03-27T14:53:54.013+05:30  INFO 10388 --- [http-nio-8080-exec-1] c.p.p.e.controller.EmployeeController    : Date: 27-03-2024 02:53:54 - EmployeeController - getAllEmployees - Response - [EmployeeEntity(id=3, name=dhiraj, email=dhiraj@gmail.com, salary=30000), EmployeeEntity(id=6, name=vikram, email=vikram@test.com, salary=20000), EmployeeEntity(id=7, name=vikram, email=vikram@test.com, salary=20000), EmployeeEntity(id=9, name=vikram, email=vikram@test.com, salary=20000), EmployeeEntity(id=10, name=vikram, email=vikram@test.com, salary=20000), EmployeeEntity(id=11, name=vikram, email=vikram@test.com, salary=20000)]
+2024-03-27T14:55:17.103+05:30  INFO 10388 --- [http-nio-8080-exec-5] c.p.p.e.controller.EmployeeController    : Date: 27-03-2024 02:55:17 - EmployeeController - saveEmployee - Response - EmployeeEntity(id=12, name=vikram, email=vikram@test.com, salary=20000)
+2024-03-27T14:55:53.320+05:30  INFO 10388 --- [http-nio-8080-exec-6] c.p.p.e.controller.EmployeeController    : Date: 27-03-2024 02:55:53 - EmployeeController - getAllEmployees - Response - [EmployeeEntity(id=3, name=dhiraj, email=dhiraj@gmail.com, salary=30000), EmployeeEntity(id=6, name=vikram, email=vikram@test.com, salary=20000), EmployeeEntity(id=7, name=vikram, email=vikram@test.com, salary=20000), EmployeeEntity(id=9, name=vikram, email=vikram@test.com, salary=20000), EmployeeEntity(id=10, name=vikram, email=vikram@test.com, salary=20000), EmployeeEntity(id=11, name=vikram, email=vikram@test.com, salary=20000), EmployeeEntity(id=12, name=vikram, email=vikram@test.com, salary=20000)]
+2024-03-27T14:57:23.051+05:30  INFO 10388 --- [http-nio-8080-exec-9] c.p.p.e.controller.EmployeeController    : Date: 27-03-2024 02:57:23 - EmployeeController - deleteEmployee - Response - Deleted Successfully!
+2024-03-27T14:57:30.308+05:30  INFO 10388 --- [http-nio-8080-exec-10] c.p.p.e.controller.EmployeeController    : Date: 27-03-2024 02:57:30 - EmployeeController - deleteEmployee - Response - Already Deleted Or No data found!
+2024-03-27T14:58:57.506+05:30  INFO 10388 --- [http-nio-8080-exec-2] c.p.p.blog.controller.BlogController     : Date: 27-03-2024 02:58:57 - BlogController - getAllBlogs - Response - []
+2024-03-27T14:59:16.426+05:30  INFO 10388 --- [http-nio-8080-exec-1] c.p.p.blog.controller.BlogController     : Date: 27-03-2024 02:59:16 - BlogController - getAllBlogs - Response - []
+2024-03-27T14:59:26.253+05:30  INFO 10388 --- [http-nio-8080-exec-3] c.p.p.blog.controller.BlogController     : Date: 27-03-2024 02:59:26 - BlogController - getAllBlogs - Response - []
+2024-03-27T15:00:07.207+05:30  INFO 10388 --- [http-nio-8080-exec-4] c.p.p.blog.controller.BlogController     : Date: 27-03-2024 03:00:07 - BlogController - getAllBlogs - Response - []
+2024-03-27T15:01:55.193+05:30  INFO 10388 --- [http-nio-8080-exec-7] c.p.p.blog.controller.BlogController     : Date: 27-03-2024 03:01:55 - BlogController - getAllBlogs - Response - []
+2024-03-27T15:05:19.579+05:30  INFO 10388 --- [http-nio-8080-exec-10] c.p.p.blog.controller.BlogController     : Date: 27-03-2024 03:05:19 - BlogController - saveBlog - Response - BlogEntity(id=1, title=this is title, description=<p>this is the description</p>, url=assets/img/test.jpg)
+2024-03-27T15:05:53.005+05:30  INFO 10388 --- [http-nio-8080-exec-2] c.p.p.blog.controller.BlogController     : Date: 27-03-2024 03:05:53 - BlogController - deleteBlog - Response - Deleted Successfully!
